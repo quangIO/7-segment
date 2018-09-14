@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Sep 14 11:45:34 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "XLXN_11" LOCATE = SITE "T17" LEVEL 1;
+COMP "XLXN_1" LOCATE = SITE "T5" LEVEL 1;
+COMP "XLXN_2" LOCATE = SITE "V8" LEVEL 1;
+COMP "XLXN_3" LOCATE = SITE "U8" LEVEL 1;
+COMP "XLXN_4" LOCATE = SITE "N8" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/quangio/ISETest/impact.xsl
+OUTFILE=/home/quangio/ISETest/impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=/home/quangio/ISETest
+LICENSE=iMPACT
+USER_INFO=iMPACT

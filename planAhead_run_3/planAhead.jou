@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Fri Sep 14 11:43:15 2018
+# Process ID: 14741
+# Log file: /home/quangio/ISETest/planAhead_run_3/planAhead.log
+# Journal file: /home/quangio/ISETest/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/quangio/ISETest/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin T10 [get_ports XLXN_1]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports XLXN_1]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports XLXN_2]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports XLXN_3]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports XLXN_4]
+endgroup
+startgroup
+set_property package_pin T17 [get_ports XLXN_11]
+endgroup
+save_constraints

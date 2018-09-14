@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/quangio/ISETest/testSchematic.ncd
+OUTFILE=/home/quangio/ISETest/testSchematic.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/quangio/ISETest
+LICENSE=WebPack
+USER_INFO=211586491_0_0_259

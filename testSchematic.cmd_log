@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/quangio/ISETest/testSchematic.xst" -ofn "/home/quangio/ISETest/testSchematic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testSchematic.ucf -p xc6slx16-csg324-3 testSchematic.ngc testSchematic.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o testSchematic_map.ncd testSchematic.ngd testSchematic.pcf 
+par -w -intstyle ise -ol high -mt off testSchematic_map.ncd testSchematic.ncd testSchematic.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml testSchematic.twx testSchematic.ncd -o testSchematic.twr testSchematic.pcf -ucf testSchematic.ucf 
+bitgen -intstyle ise -f testSchematic.ut testSchematic.ncd 
